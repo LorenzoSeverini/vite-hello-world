@@ -3,12 +3,14 @@
 //Importiamo i componenti da usare
 import AppTitle from './components/AppTitle.vue'
 import AppContent from './components/AppContent.vue'
+import NomeComponente from './components/NomeComponente.vue';
 
 //Definiamo l'oggetto che conterrà la lista dei componenti importati, che vogliamo usare
 export default {
   components: {
     AppTitle,
-    AppContent
+    AppContent,
+    NomeComponente,
   }
 }
 </script>
@@ -25,6 +27,8 @@ export default {
     <!-- Usiamo i componenti importati sopra -->
     <!-- il contenuto è nei relativi file (cartella "components") -->
     <AppContent />
+
+    <NomeComponente />
   </main>
 </template>
 
